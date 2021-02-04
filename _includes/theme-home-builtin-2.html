@@ -13,25 +13,17 @@
   </div>
 
   <div class="column">
-    <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
-    <p class="">{{ site.data.bio.basics.label }}</p>
+    <h1 class="header no-bottom">Catherine Tianhong Yu</h1>
+    <h2 class="header no-bottom" style="margin-top: 0px;">于天泓</h2>
     <p class="">
-      {{ site.data.bio.basics.summary }}
-    </p>
-    <p>Interests:
-      {% for interest in site.data.bio.interests %}
-        {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-      {% endfor %}
+      I'm a senior studying Computer Science at Carnegie Mellon Univeristy with minors in Physical Computing and Soft Technologies.
     </p>
     <p style="text-align: center">
       {% include home-network-links.html %}
     </p>
     <p style="text-align: center">
       <a href="{{ site.baseurl}}/projects/">
-        <button class="ui basic button">Projects ({{ num_projects }})</button>
-      </a>
-      <a href="{{ site.baseurl}}/essays/">
-        <button class="ui basic button">Essays ({{ num_essays }})</button>
+        <button class="ui basic button">Projects</button>
       </a>
       <a href="{{ site.baseurl}}/bio/">
         <button class="ui basic button">{{ site.bio-page-label }}</button>
