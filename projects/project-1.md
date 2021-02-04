@@ -1,44 +1,32 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-# All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+image: images/string-art-icon.jpg
+title: Parallelized String Art
+permalink: projects/parallelized-string-art
+date: 2020-12-15
+time: May 2020
 labels:
-  - Robotics
-  - Arduino
+  - CUDA
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: We implemented a parallelized string art solver in C++ and CUDA that computes the string art best resembling the input image and achieved over 221x speedup.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+<img class="ui image" src="../images/string-art-results.jpeg">
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+String art is an image solely composed of strings between pins
+around a circular canvas. We implemented a parallelized string art
+solver in C++ and CUDA that computes the string art best resembling the input image. We developed our algorithm from scratch
+based on the sequential greedy approach proposed in paper by
+[Brisak et al](https://www.cg.tuwien.ac.at/research/publications/2018/Birsak2018-SA/Birsak2018-SA-preprint.pdf). We modified the proposed algorithm while implementing our sequential version of the solver, so that algorithm
+would have more parallelism to exploit while outputting more accurate string art image. We then developed our parallel version of
+the solver, which produces the same output as the sequential solver
+in a considerably shorter runtime. We were able to achieve an over
+221x speedup on a 512*512 image with 128 pins.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+This project was for class 15418 Parallel Computer Architecture and Programming. For more information, check out the [final report](https://cat-yu.github.io/pdf/string_art_report.pdf) and the [project page](https://nanxili.github.io/15418-threadart/).
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Source: <a href="https://github.com/nanxili/15418-threadart/tree/master"><i class="large github icon"></i>15418-threadart</a>
 
 
 
