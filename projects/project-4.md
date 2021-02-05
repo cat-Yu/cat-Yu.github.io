@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/driving-icon.png
 title: Cardboard Box Driving Game
-permalink: projects/emotional-face-mask
+permalink: projects/driving-game
 # All dates must be YYYY-MM-DD format!
 date: 2020-10-17
 time: October 2020
