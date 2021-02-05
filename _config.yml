@@ -21,3 +21,5 @@ rouge-theme: igorpro
 markdown: kramdown
 include: [_data]
 
+google_analytics: UA-189007610-2
+
