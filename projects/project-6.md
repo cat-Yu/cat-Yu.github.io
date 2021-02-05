@@ -29,7 +29,7 @@ This was a class project for 16376 Kinetic Fabrics. For more information, see th
 
 Because the performance was mostly in complete darkness, we weren't able to record the performance. Below is a video of the setup process.
 
-<div class="ui embed" data-source="youtube" data-id="hscgnVOyjs8" >
-</div>
+<!-- <div class="ui embed" data-source="youtube" data-id="hscgnVOyjs8" >
+</div> -->
 
 

@@ -12,8 +12,8 @@ labels:
   - Physical Computing
 summary: A simple driving game made with a cardboard box, an arduino, an 8x8 LED matrix, and an accelerometer.
 ---
-<div class="ui embed" data-source="youtube" data-id="tdre1XoNuWY" >
-</div>
+<!-- <div class="ui embed" data-source="youtube" data-id="tdre1XoNuWY" >
+</div> -->
  
  -----
 

@@ -13,8 +13,8 @@ labels:
 summary: A small exercise using shibori dyed fabric to tell a story.
 ---
 
-<div class="ui embed" data-source="youtube" data-id="LwUkrVMHG8A" >
-</div>
+<!-- <div class="ui embed" data-source="youtube" data-id="LwUkrVMHG8A" >
+</div> -->
 
 ------
 
