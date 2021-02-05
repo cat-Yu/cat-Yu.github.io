@@ -13,8 +13,8 @@ labels:
   - Physical Computing
 summary: A face mask that displays emotions with accessible touch controls.
 ---
-<!-- <div class="ui embed" data-source="youtube" data-id="XEdzM5Hb0zg" >
-</div> -->
+<div class="ui embed" data-source="youtube" data-id="XEdzM5Hb0zg" >
+</div>
  
  -----
  
