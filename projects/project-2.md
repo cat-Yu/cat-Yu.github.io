@@ -1,25 +1,28 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/paper-menu-icon.jpg
+title: Interactive Paper Menu
+permalink: projects/interactive-paper-menu
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-12-18
+time: December 2020
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Arduino
+  - Paper Circuit
+  - Prototyping
+  - Interaction Design
+  - Physical Computing
+summary: An exploration of 3 ways of interactions that can be used in a interactive paper menu using paper circuits.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/paper-menu-img.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+As technology advances, many interactions are drastically changing. When I came back to China, I was shocked by how mobile ordering in restaurants is widely adopted. It went from ordering with a server, to ordering using a tablet/ipad, to a table of people ordering from the same phone, to now where everyone can contribute to the same order using their own phone. Just like many people who prefer reading a paper book, I really enjoyed flipping through menus at restaurants.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+However, we cannot ignore the benefit of having electronic orders: the order goes directly to the kitchen and all orders are automatically  stored digitally. To combine the paper feel of the menu and the benefit of having a digital menu, this project explores 3 ways of interactions that can be used in a interactive paper menu using paper circuits:
+  - presses (equivalent to a button)
+  - slider (equivalent to a linear potentiometer)
+  - wheel (equivalent to a circular potentiometer)
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+For more information, see the [project documentation](https://courses.ideate.cmu.edu/48-339/f2020/?p=1964).

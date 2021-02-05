@@ -5,11 +5,11 @@ image: images/string-art-icon.jpg
 title: Parallelized String Art
 permalink: projects/parallelized-string-art
 date: 2020-12-15
-time: May 2020
+time: December 2020
 labels:
   - CUDA
   - C++
-summary: We implemented a parallelized string art solver in C++ and CUDA that computes the string art best resembling the input image and achieved over 221x speedup.
+summary: A parallelized string art solver that computes the string art best resembling the input image and achieves over 221x speedup.
 ---
 
 <img class="ui image" src="../images/string-art-results.jpeg">
