@@ -5,7 +5,7 @@ image: images/starry-night-icon.jpg
 title: Starry Night
 permalink: projects/starry-night
 # All dates must be YYYY-MM-DD format!
-date: 2019-5-10
+date: 2019-05-10
 time: May 2019
 labels:
   - Light Show
