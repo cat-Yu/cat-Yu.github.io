@@ -4,7 +4,7 @@ type: project
 image: images/conductive-yarn-result.jpg
 title: Conductive Bioplastic Yarn
 permalink: projects/conductive-bioplastic-yarn
-date: 2021-5-4
+date: 2021-05-04
 time: May 2021
 labels:
   - Material Science

@@ -4,7 +4,7 @@ type: project
 image: images/puppy-square.jpg
 title: Interactive Fabric Book
 permalink: projects/interactive-fabric-book
-date: 2021-5-10
+date: 2021-05-10
 time: May 2021
 labels:
   - Capacitive Sensing
