@@ -9,7 +9,7 @@ time: May 2021
 labels:
   - Capacitive Sensing
   - E-textiles
-summary: An interactive children’s fabric book embedded with soft sensors and electronic output elements for creating a rich storytelling experience.
+summary: A interactive children’s fabric book embedded with soft sensors and electronic output elements for creating a rich storytelling experience.
 ---
 
 <div class="ui embed" data-source="youtube" data-id="kkQF_9t8EaY" >
