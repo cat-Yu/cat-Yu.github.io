@@ -352,7 +352,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       i::before {
@@ -598,7 +598,7 @@ footer.sticky-bottom {
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
     .row {
       display: flex;
@@ -608,16 +608,16 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+    width: 180px;
+    margin-bottom: 0px;
   }
 
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     text-align: right;
   }
 }
@@ -699,6 +699,7 @@ footer.sticky-bottom {
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
+          color: #000000;
 
           &:hover {
             border-bottom-style: solid;
@@ -709,6 +710,7 @@ footer.sticky-bottom {
         >em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 400;
         }
 
         >span.more-authors {
@@ -800,7 +802,7 @@ footer.sticky-bottom {
 
 // Rouge Color Customization
 figure.highlight {
-  margin: 0 0 1rem;
+  margin: 0 0 0rem;
 }
 
 pre {
