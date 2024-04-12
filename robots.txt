@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cat-Yu.github.io/sitemap.xml
+Sitemap: catherineyu.com/sitemap.xml
