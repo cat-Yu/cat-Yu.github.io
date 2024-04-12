@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a 2nd Year Ph.D. student at the [SciFi Lab](https://www.scifilab.org/) at Cornell University, advised by [Prof. Cheng Zhang](http://www.czhang.org/).
-My research interest lies in creating wearables that are **disruptive** (novel technology) yet **familiar** (existing everyday objects/behaviours). I am particularly interested in textile-based interfaces.
+My research interest lies in creating wearables that are **disruptive** (novel technology) yet **familiar** (existing everyday objects/behaviours). I am particularly excited about textile-based interfaces.
 
 Previously, I received my B.S. and M.S. in Computer Science at Carnegie Mellon Univeristy. During my Masters, I worked on [machine-knitted sensors](http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/usr/ftp/2022/abstracts/22-128.html), advised by [Prof. Mayank Goel](http://www.mayankgoel.com/) and [Prof. James McCann](https://www.cs.cmu.edu/~jmccann/).
 
