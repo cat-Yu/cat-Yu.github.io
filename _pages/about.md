@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: HCI Researcher.
+subtitle: HCI Researcher - Computer Scientist by training - Engineer by failing
 
 profile:
   align: right
