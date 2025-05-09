@@ -1,53 +1,53 @@
-"Kao":
-  - firstname: ["Cindy", "Cindy Hsin-Liu"]
-    url: https://www.hybridbody.human.cornell.edu/cindyhlkao
+# "Kao":
+#   - firstname: ["Cindy", "Cindy Hsin-Liu"]
+#     url: https://www.hybridbody.human.cornell.edu/cindyhlkao
 
-"Si":
-  - firstname: ["Zilin"]
-    url: https://si-lynnn.github.io/
+# "Si":
+#   - firstname: ["Zilin"]
+#     url: https://si-lynnn.github.io/
 
-"McCann":
-  - firstname: ["James"]
-    url: https://www.cs.cmu.edu/~jmccann/
+# "McCann":
+#   - firstname: ["James"]
+#     url: https://www.cs.cmu.edu/~jmccann/
 
-"Arakawa": 
-  - firstname: ["Riku"]
-    url: https://rikky0611.github.io/
+# "Arakawa": 
+#   - firstname: ["Riku"]
+#     url: https://rikky0611.github.io/
 
-"Goel":
-  - firstname: ["Mayank"]
-    url: http://www.mayankgoel.com/
+# "Goel":
+#   - firstname: ["Mayank"]
+#     url: http://www.mayankgoel.com/
 
-"Yuan":
-  - firstname: ["Wenzhen"]
-    url: http://robotouch.ri.cmu.edu/yuanwz/
+# "Yuan":
+#   - firstname: ["Wenzhen"]
+#     url: http://robotouch.ri.cmu.edu/yuanwz/
 
-"Lee":
-  - firstname: ["Chi-Jung"]
-    url: https://cjlisalee.github.io/
+# "Lee":
+#   - firstname: ["Chi-Jung"]
+#     url: https://cjlisalee.github.io/
 
-"Zhang":
-  - firstname: ["Ruidong"]
-    url: https://ruidongzhang.com/
-  - firstname: ["Cheng"]
-    url: https://czhang.org/
+# "Zhang":
+#   - firstname: ["Ruidong"]
+#     url: https://ruidongzhang.com/
+#   - firstname: ["Cheng"]
+#     url: https://czhang.org/
 
-"Li":
-  - firstname: ["Ke"]
-    url: https://keli97.github.io/
+# "Li":
+#   - firstname: ["Ke"]
+#     url: https://keli97.github.io/
 
-"Guimbretiere":
-  - firstname: ["Francois"]
-    url: https://www.cs.cornell.edu/~francois/
+# "Guimbretiere":
+#   - firstname: ["Francois"]
+#     url: https://www.cs.cornell.edu/~francois/
 
-"Mahmud":
-  - firstname: ["Saif"]
-    url: https://saif-mahmud.github.io/
+# "Mahmud":
+#   - firstname: ["Saif"]
+#     url: https://saif-mahmud.github.io/
 
-"Hu":
-  - firstname: ["Guilin"]
-    url: https://guilinhu.github.io/
+# "Hu":
+#   - firstname: ["Guilin"]
+#     url: https://guilinhu.github.io/
 
-"Lim":
-  - firstname: ["Hyunchul"]
-    url: https://www.hyunchul.com/
+# "Lim":
+#   - firstname: ["Hyunchul"]
+#     url: https://www.hyunchul.com/

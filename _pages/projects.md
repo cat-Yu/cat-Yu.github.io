@@ -1,6 +1,6 @@
 ---
 layout: page
-title: littlethings
+title: LittleThings
 permalink: /littlething/
 description: Little things spanning textile arts, soft technologies, and beyond.
 nav: true

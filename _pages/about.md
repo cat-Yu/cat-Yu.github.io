@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: HCI Researcher - Computer Scientist by training - Engineer by failing
 
