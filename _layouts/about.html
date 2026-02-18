@@ -23,11 +23,27 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
+              {% if page.profile.hover_image %}
+                {%- assign hover_image_path = page.profile.hover_image | prepend: 'assets/img/' -%}
+                <div class="profile-image-swap">
+                  <img
+                    src="{{ profile_image_path | relative_url }}"
+                    class="{{ profile_image_class }} profile-img-default"
+                    alt="{{ page.profile.image }}"
+                  />
+                  <img
+                    src="{{ hover_image_path | relative_url }}"
+                    class="{{ profile_image_class }} profile-img-hover"
+                    alt="{{ page.profile.hover_image }}"
+                  />
+                </div>
+              {% else %}
+                {% include figure.html
+                path=profile_image_path
+                class=profile_image_class
+                alt=page.profile.image
+                cache_bust=true -%}
+              {% endif %}
             {% endif -%}
             {%- if page.profile.more_info %}
             <div class="more-info">
@@ -72,5 +88,19 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
         </article>
+
+{% if page.profile.hover_image %}
+<script>
+  // Toggle profile image on tap for touch devices
+  document.addEventListener("DOMContentLoaded", function () {
+    var swap = document.querySelector(".profile-image-swap");
+    if (swap && "ontouchstart" in window) {
+      swap.addEventListener("click", function () {
+        this.classList.toggle("active");
+      });
+    }
+  });
+</script>
+{% endif %}
 
 </div>

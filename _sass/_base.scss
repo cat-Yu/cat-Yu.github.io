@@ -159,6 +159,68 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Profile image hover/tap swap
+
+.profile-image-swap {
+  position: relative;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+
+  .profile-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  .profile-img-default {
+    opacity: 1;
+  }
+
+  // Desktop: hover to swap
+  &:hover .profile-img-default {
+    opacity: 0;
+  }
+
+  &:hover .profile-img-hover {
+    opacity: 1;
+  }
+
+  // Mobile tap toggle (via JS-added class)
+  &.active .profile-img-default {
+    opacity: 0;
+  }
+
+  &.active .profile-img-hover {
+    opacity: 1;
+  }
+}
+
+// On touch-only devices, disable CSS hover so only tap toggle works
+@media (hover: none) {
+  .profile-image-swap {
+    &:hover .profile-img-default {
+      opacity: 1;
+    }
+
+    &:hover .profile-img-hover {
+      opacity: 0;
+    }
+
+    &.active .profile-img-default {
+      opacity: 0;
+    }
+
+    &.active .profile-img-hover {
+      opacity: 1;
+    }
+  }
+}
+
 // Profile
 
 .profile {
