@@ -3,6 +3,46 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{Sensorimotor-Stickies,
+author={Yu, Tianhong Catherine and Zheng, Jiwei and Lee, Chi-Jung and Yang, Qifeng and Cheng, Tingyu and Xue, Qiuyue (Shirley) and Zhang, Cheng and Luo, Yiyue},
+title = {Sensorimotor Stickies: A Reconfigurable On-Body Platform for Closed-Loop Sensorimotor Training},
+year = {2026},
+selected={true},
+paper = {true},
+doi = {https://dl.acm.org/doi/10.1145/3830398.3830699},
+abstract = {Closed-loop sensorimotor training systems can improve learning by sensing movement and delivering real-time feedback, yet most are built as fixed implementations tied to a single task, even though the core technology (inertial and tactile sensing, vibrotactile cueing, rule-based logic) remains the same. We present Sensorimotor Stickies, a reconfigurable on-body platform that treats sensing and vibrotactile feedback as modular stickies that can be patched onto the body as needed. The platform includes miniaturized adhesive modules for IMU sensing, optional tactile sensing, and vibrotactile actuation; low-power firmware and BLE infrastructure for raw streaming and motor control without task-specific rewrites; and a companion mobile app that provides a shared body-centered model for placement, calibration, and feedback authoring. Together, these components enable reconfiguration across training scenarios, user needs, and feedback setups. We evaluate the platform through technical characterization, configured application demonstration, practitioner-mediated configuration sessions, and an end-user study, demonstrating technical feasibility, reconfiguration breadth, and end-user configurability for first-time setup, calibration, and within-task feedback reconfiguration.},
+booktitle = {UIST},
+video = {https://www.youtube.com/watch?v=EPbek8aYA5c},
+preview = {Sensorimotor-Stickies-Thumbnail.png},
+website = {https://stickies.catherineyu.com/},
+code={https://github.com/cat-Yu/sensorimotor-stickies},
+}
+
+@inproceedings{StitchOver,
+author={Chang, Zekun and Yu, Tianhong Catherine and Gao, Yixuan and Roumen, Thijs},
+title = {StitchOver: Technical Embroidery on Seamed Fabrics},
+year = {2026},
+selected={false},
+paper = {true},
+doi = {https://doi.org/10.1145/3830398.3830717},
+abstract = {We present a technique to reliably embroider on seamed fabric even when using functional threads. Our software tool automatically digitizes user-defined stitch patterns by introducing what we call “jump stitches” to bypass seam interference. It inserts supporting stitches to anchor these transitions and adds underlays at seam intersections. Our tool further allows varying stitch settings along a continuous path across different material regions and supports multi-hoop embroidery with connectors to retain functionality across hoops.},
+booktitle = {UIST},
+preview = {StitchOver-Thumbnail.png},
+}
+
+@inproceedings{PRA,
+author={Yu, Tianhong Catherine and Kou, Ziyi and Huang, Mia and Niehues, Taylor and Luo, Yiyue and Li, Guan and Zhang, Dingtian},
+title = {Pose-Aware Modeling to Mitigate Pose-Related Artifacts in Tactile Gloves},
+year = {2026},
+selected={true},
+paper = {true},
+doi = {https://arxiv.org/abs/2607.22964},
+abstract = {Tactile gloves digitize contact and force during hand-object interactions, enabling robotics applications in dexterous manipulation, teleoperation, and learning from demonstration. To preserve hand dexterity and capture the nuances of natural interactions, these gloves and the integrated tactile sensors are designed to be soft, flexible, and comfortable. However, such flexible sensors are sensitive not only to contact forces but also unavoidably to hand pose changes, resulting in pose-related artifacts (PRAs). PRAs are especially problematic in the low-force range, resulting in misdetections or late-onset detections of contact, which raises the minimum detectable force (MDF) of the glove. In this work, we characterize the PRAs in relation to pose and force. Building on these insights, we introduce a glove-agnostic algorithmic framework that leverages hand pose information, which is increasingly available, to mitigate PRAs without glove modifications. Our pose-aware force estimation model augments tactile-to-force pipelines with a residual prediction branch that explicitly accounts for pose-induced sensor deformations. We validate our approach across 3 glove designs and 15 users, reducing MDF by 10.4%, 12.2%, and 18.3%, with consistent improvements across all evaluated metrics. This method provides a practical path to improving the usability of tactile gloves in data collection and diverse robotic applications.},
+booktitle = {IROS},
+video = {https://www.youtube.com/watch?v=52ZLJSC1YV0},
+preview = {PRA-thumbnail.png},
+}
+
 @inproceedings{Circuit2Yarn,
 author = {Zhao, Zhechen and Liu, Jingyi and Yu, Tianhong Catherine and Liu, Jiaqing and Yan, Zeyu and Peng, Huaishu and Luo, Yiyue and Zhang, Zhihan and Cheng, Tingyu},
 title = {Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions},

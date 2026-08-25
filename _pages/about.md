@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 4th Year Ph.D. student at the [SciFi Lab](https://www.scifilab.org/) at Cornell University, advised by [Prof. Cheng Zhang](http://www.czhang.org/).
+I am a 5th Year Ph.D. candidate at the [SciFi Lab](https://www.scifilab.org/) at Cornell University, advised by [Prof. Cheng Zhang](http://www.czhang.org/).
 My research interest lies in creating wearables that are **disruptive** (novel technology) yet **familiar** (existing everyday objects/behaviours). I am particularly excited about textile-based interfaces.
 
 Previously, I visited the [WI Lab](https://yyueluo.com/group.html) led by [Prof. Yiyue Luo](https://yyueluo.com/index.html) at University of Washington, and interned at Meta Reality Lab Research. I received my B.S. and M.S. in Computer Science at Carnegie Mellon Univeristy. During my Masters, I worked on [machine-knitted sensors](http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/usr/ftp/2022/abstracts/22-128.html), advised by [Prof. Mayank Goel](http://www.mayankgoel.com/) and [Prof. James McCann](https://www.cs.cmu.edu/~jmccann/). 
